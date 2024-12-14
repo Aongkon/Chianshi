@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+}
+.textH1{
+    color: aqua;
+    background: #850080;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.forGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#card{
+    padding: 20px;
+    box-shadow: 5px 3px 10px black; 
+    border-radius: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#cardBody{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.card h1{
+    font-size: 38px;
+    padding-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card button{
+    padding: 10px 25px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 40px;
+}
+
+.parent_card{
+   display: grid;
+   grid-template-columns: repeat(3, minmax(0, 1fr));
+   gap: 2rem;
+}
+
+.textH1{
+    color: aqua;
+    background: #850080;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 1px 5px #000;
+}
+
+#someStyle{
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+.state_div h2{
+    margin-bottom: 40px;
+}
+
+.state_div{
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    gap: 3rem;
+}
+
+#clintName{
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+#forButton Button{
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+#main_div{
+    width: 80%;
+    padding: 100px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstForm{
+    background: #fb9b15;
+    padding: 50px 100px;
+    border-radius: 15px;
+}
+
+#secondForm{
+    background: #18f5d8;
+    padding: 30px 60px;
+    border-radius: 15px;
+}
+
+#input_field_first, #input_field_second, #input_field_third{
+    margin-bottom: 20px;
+}
+
+#input_field_first input{
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#input_field_second input{
+    margin-left: 13px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#input_field_third input{
+    margin-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#submitFirst{
+    padding: 10px 100px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #fff;
+    background: #0e8c5e;
+    border: none;
+    margin-top: 40px;
+    border-radius: 10px;
 }

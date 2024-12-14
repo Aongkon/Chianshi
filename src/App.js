@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import HooksOrUseState from './Component/HooksOrUseState/HooksOrUseState';
+import ParentCard from './Component/ParentCard';
+import State from './Component/State/State';
+// import FirstForm from './Component/Form/FisrtForm';
+import SecondForm from './Component/Form/SecondForm';
+import ParentCallBack from './Component/CallBack/ParentCallBack';
+import ComponentFirst from './Component/Class32/ComponentFirst';
+import DemoToggle from './Component/ToggleComponent/DemoToggle';
+import DataFetch from './Component/DataFetch/DataFetch';
+import UserReducer from './Component/UseReducerHook/UserReducer';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+      {/* <ParentCard/> */}
+      {/* <State/> */}
+      {/* <HooksOrUseState/> */}
+      {/* <FirstForm/> */}
+      {/* <SecondForm/> */}
+      {/* <ParentCallBack/> */}
+      {/* <ComponentFirst/> */}
+      {/* <DemoToggle/> */}
+      {/* <DataFetch/> */}
+      <UserReducer/>
+   </div>
   );
 }
 
